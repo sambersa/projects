@@ -59,14 +59,3 @@ Learn CSV file generation and dynamic feedback.
 
 
 
-💡 Ideas for Extensions
-Add a timer to challenge speed.
-
-Use OOP (create StateManager, Map, or UI classes).
-
-Highlight correct and incorrect guesses with color.
-
-Add a score or hint system for younger players.
-
-Happy coding and good luck learning all 50 states! 🇺🇸🐢
-
