@@ -37,8 +37,6 @@ python main.py
 2. If you want to stop early, type Exit in the input box.
 3. Check the states_to_learn.csv file to study the states you missed.
 
-4. 
-
 📂 File Structure
 .
 ├── main.py               # Main game script
