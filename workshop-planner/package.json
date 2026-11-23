@@ -1,0 +1,12 @@
+{
+  "name": "workshop-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free workshop scheduler with skills, precedence and shared equipment constraints.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node cli.js examples/workshop.json --out demo-output"
+  }
+}

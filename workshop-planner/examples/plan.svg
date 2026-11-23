@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="715" viewBox="0 0 1100 715" role="img" aria-labelledby="title desc">
+<title id="title">Workshop maintenance plan</title>
+<desc id="desc">Technician timelines showing scheduled jobs, breaks, utilization and reasons for unscheduled work.</desc>
+<rect width="1100" height="715" fill="#f4f2ec"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#182d35">
+<text x="45" y="45" font-size="13" letter-spacing="3" fill="#48766d">WORKSHOP PLANNER / DAILY PLAN</text>
+<text x="45" y="90" font-size="32" font-weight="700">The day, without the double bookings.</text>
+<text x="45" y="123" font-size="15">7 scheduled · 3 unassigned · 1 late</text>
+<text x="45" y="210" font-size="18" font-weight="700">alex</text>
+<text x="45" y="233" font-size="12" fill="#53706e">57% booked</text>
+<rect x="175" y="185" width="850" height="65" rx="8" fill="#e2ded4"/>
+<rect x="175" y="185" width="425" height="65" fill="#e4eeea"/>
+<rect x="653.125" y="185" width="371.875" height="65" fill="#e4eeea"/>
+<rect x="175" y="190" width="79.6875" height="55" rx="6" fill="#1c6258"><title>Inspect pump housing | 08:00–08:45 | no shared resource</title></rect>
+<text x="183" y="212" font-size="12" fill="white">inspect</text>
+<rect x="254.6875" y="190" width="212.5" height="55" rx="6" fill="#1c6258"><title>Replace pump seal | 08:45–10:45 | lifting-bay</title></rect>
+<text x="262.6875" y="212" font-size="12" fill="white">pump-seal</text>
+<text x="262.6875" y="231" font-size="10" fill="#d8efea">08:45–10:45</text>
+<rect x="653.125" y="190" width="159.375" height="55" rx="6" fill="#3f7774"><title>Replace conveyor bearing | 12:30–14:00 | lifting-bay</title></rect>
+<text x="661.125" y="212" font-size="12" fill="white">bearing</text>
+<text x="661.125" y="231" font-size="10" fill="#d8efea">12:30–14:00</text>
+<text x="175" y="269" font-size="10" fill="#53706e" text-anchor="middle">08:00</text>
+<text x="281.25" y="269" font-size="10" fill="#53706e" text-anchor="middle">09:00</text>
+<text x="387.5" y="269" font-size="10" fill="#53706e" text-anchor="middle">10:00</text>
+<text x="493.75" y="269" font-size="10" fill="#53706e" text-anchor="middle">11:00</text>
+<text x="600" y="269" font-size="10" fill="#53706e" text-anchor="middle">12:00</text>
+<text x="706.25" y="269" font-size="10" fill="#53706e" text-anchor="middle">13:00</text>
+<text x="812.5" y="269" font-size="10" fill="#53706e" text-anchor="middle">14:00</text>
+<text x="918.75" y="269" font-size="10" fill="#53706e" text-anchor="middle">15:00</text>
+<text x="1025" y="269" font-size="10" fill="#53706e" text-anchor="middle">16:00</text>
+<text x="45" y="330" font-size="18" font-weight="700">jamie</text>
+<text x="45" y="353" font-size="12" fill="#53706e">33% booked</text>
+<rect x="175" y="305" width="850" height="65" rx="8" fill="#e2ded4"/>
+<rect x="175" y="305" width="371.875" height="65" fill="#e4eeea"/>
+<rect x="600" y="305" width="425" height="65" fill="#e4eeea"/>
+<rect x="175" y="310" width="159.375" height="55" rx="6" fill="#1c6258"><title>Motor insulation check | 08:00–09:30 | test-bench</title></rect>
+<text x="183" y="332" font-size="12" fill="white">motor</text>
+<text x="183" y="351" font-size="10" fill="#d8efea">08:00–09:30</text>
+<rect x="334.375" y="310" width="106.25" height="55" rx="6" fill="#3f7774"><title>Calibrate spare sensor | 09:30–10:30 | test-bench</title></rect>
+<text x="342.375" y="332" font-size="12" fill="white">calibrate</text>
+<text x="342.375" y="351" font-size="10" fill="#d8efea">09:30–10:30</text>
+<text x="175" y="389" font-size="10" fill="#53706e" text-anchor="middle">08:00</text>
+<text x="281.25" y="389" font-size="10" fill="#53706e" text-anchor="middle">09:00</text>
+<text x="387.5" y="389" font-size="10" fill="#53706e" text-anchor="middle">10:00</text>
+<text x="493.75" y="389" font-size="10" fill="#53706e" text-anchor="middle">11:00</text>
+<text x="600" y="389" font-size="10" fill="#53706e" text-anchor="middle">12:00</text>
+<text x="706.25" y="389" font-size="10" fill="#53706e" text-anchor="middle">13:00</text>
+<text x="812.5" y="389" font-size="10" fill="#53706e" text-anchor="middle">14:00</text>
+<text x="918.75" y="389" font-size="10" fill="#53706e" text-anchor="middle">15:00</text>
+<text x="1025" y="389" font-size="10" fill="#53706e" text-anchor="middle">16:00</text>
+<text x="45" y="450" font-size="18" font-weight="700">morgan</text>
+<text x="45" y="473" font-size="12" fill="#53706e">50% booked</text>
+<rect x="175" y="425" width="850" height="65" rx="8" fill="#e2ded4"/>
+<rect x="281.25" y="425" width="318.75" height="65" fill="#e4eeea"/>
+<rect x="653.125" y="425" width="318.75" height="65" fill="#e4eeea"/>
+<rect x="334.375" y="430" width="212.5" height="55" rx="6" fill="#3f7774"><title>Replace damaged wiring | 09:30–11:30 | no shared resource</title></rect>
+<text x="342.375" y="452" font-size="12" fill="white">wiring</text>
+<text x="342.375" y="471" font-size="10" fill="#d8efea">09:30–11:30</text>
+<rect x="653.125" y="430" width="106.25" height="55" rx="6" fill="#b65a35"><title>Combined mechanical and electrical test | 12:30–13:30 | test-bench</title></rect>
+<text x="661.125" y="452" font-size="12" fill="white">final-test</text>
+<text x="661.125" y="471" font-size="10" fill="#d8efea">12:30–13:30</text>
+<text x="175" y="509" font-size="10" fill="#53706e" text-anchor="middle">08:00</text>
+<text x="281.25" y="509" font-size="10" fill="#53706e" text-anchor="middle">09:00</text>
+<text x="387.5" y="509" font-size="10" fill="#53706e" text-anchor="middle">10:00</text>
+<text x="493.75" y="509" font-size="10" fill="#53706e" text-anchor="middle">11:00</text>
+<text x="600" y="509" font-size="10" fill="#53706e" text-anchor="middle">12:00</text>
+<text x="706.25" y="509" font-size="10" fill="#53706e" text-anchor="middle">13:00</text>
+<text x="812.5" y="509" font-size="10" fill="#53706e" text-anchor="middle">14:00</text>
+<text x="918.75" y="509" font-size="10" fill="#53706e" text-anchor="middle">15:00</text>
+<text x="1025" y="509" font-size="10" fill="#53706e" text-anchor="middle">16:00</text>
+<text x="45" y="565" font-size="16" font-weight="700">Unscheduled work</text>
+<text x="45" y="593" font-size="12">weld — No technician has all required skills</text>
+<text x="45" y="618" font-size="12">overhaul — No continuous slot within technician availability and resource capacity</text>
+<text x="45" y="643" font-size="12">paint — Blocked by unscheduled dependency: weld</text>
+</g></svg>

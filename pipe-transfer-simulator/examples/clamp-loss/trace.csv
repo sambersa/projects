@@ -1,0 +1,7 @@
+scan,elapsed_ms,stage,clamp,lift,transfer,lower,release,fault
+0,0,Idle,False,False,False,False,False,""
+1,100,Clamping,True,False,False,False,False,""
+2,200,Clamping,True,False,False,False,False,""
+3,300,Clamping,True,False,False,False,False,""
+4,400,Lifting,True,True,False,False,False,""
+5,500,Fault,False,False,False,False,False,"Clamp feedback lost"

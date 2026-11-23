@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="610" viewBox="0 0 1100 610" role="img" aria-labelledby="title desc">
+<title id="title">Pipe transfer simulation: normal</title><desc id="desc">State occupancy over simulated time. Each rectangle represents one 100 millisecond scan.</desc>
+<rect width="1100" height="610" fill="#0c202b"/><g fill="#eaf4f5" font-family="Segoe UI,Arial,sans-serif">
+<text x="45" y="46" fill="#71cfc2" font-size="13" letter-spacing="3">PIPE TRANSFER / SIMULATION TRACE</text>
+<text x="45" y="92" font-size="32" font-weight="700">normal</text>
+<text x="45" y="124" font-size="15" fill="#aac7cc">34 scans · 3.3s simulated · result: Complete</text>
+<text x="45" y="187" font-size="14">Idle</text><line x1="190" x2="1040" y1="195" y2="195" stroke="#284451"/>
+<rect x="190.00" y="165" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="230" font-size="14">Clamping</text><line x1="190" x2="1040" y1="238" y2="238" stroke="#284451"/>
+<rect x="215.00" y="208" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="240.00" y="208" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="265.00" y="208" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="273" font-size="14">Lifting</text><line x1="190" x2="1040" y1="281" y2="281" stroke="#284451"/>
+<rect x="290.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="315.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="340.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="365.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="390.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="415.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="440.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="465.00" y="251" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="316" font-size="14">Transferring</text><line x1="190" x2="1040" y1="324" y2="324" stroke="#284451"/>
+<rect x="490.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="515.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="540.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="565.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="590.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="615.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="640.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="665.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="690.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="715.00" y="294" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="359" font-size="14">Lowering</text><line x1="190" x2="1040" y1="367" y2="367" stroke="#284451"/>
+<rect x="740.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="765.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="790.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="815.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="840.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="865.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="890.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="915.00" y="337" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="402" font-size="14">Releasing</text><line x1="190" x2="1040" y1="410" y2="410" stroke="#284451"/>
+<rect x="940.00" y="380" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="965.00" y="380" width="25.10" height="30" fill="#71cfc2"/>
+<rect x="990.00" y="380" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="445" font-size="14">Complete</text><line x1="190" x2="1040" y1="453" y2="453" stroke="#284451"/>
+<rect x="1015.00" y="423" width="25.10" height="30" fill="#71cfc2"/>
+<text x="45" y="488" font-size="14">Fault</text><line x1="190" x2="1040" y1="496" y2="496" stroke="#284451"/>
+<text x="45" y="555" font-size="16">Sequence completed; no faults.</text>
+<text x="45" y="585" fill="#aac7cc" font-size="12">Synthetic equipment model · deterministic 100ms scans · no hardware connection</text></g></svg>

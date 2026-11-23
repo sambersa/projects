@@ -1,0 +1,57 @@
+name: Engineering projects
+on:
+  push:
+    paths:
+      - 'pipe-transfer-simulator/**'
+      - 'sensor-logbook/**'
+      - 'workshop-planner/**'
+      - '.github/workflows/engineering-projects.yml'
+  pull_request:
+    paths:
+      - 'pipe-transfer-simulator/**'
+      - 'sensor-logbook/**'
+      - 'workshop-planner/**'
+      - '.github/workflows/engineering-projects.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pipe-transfer:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pipe-transfer-simulator
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      - run: dotnet run -- --test
+      - run: dotnet run -- --scenario normal --out demo-output
+  sensor-logbook:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    defaults:
+      run:
+        working-directory: sensor-logbook
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m unittest -v
+      - run: python logbook.py --db demo.sqlite demo
+  workshop-planner:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: workshop-planner
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run demo

@@ -1,0 +1,41 @@
+{
+  "assets": [
+    {
+      "asset": "pump-01",
+      "sequence": 59,
+      "timestamp": "2026-11-23T09:04:55.000000+00:00",
+      "temperature": 59.23,
+      "vibration": 3.82,
+      "age_seconds": 5.0,
+      "stale": false
+    },
+    {
+      "asset": "pump-02",
+      "sequence": 45,
+      "timestamp": "2026-11-23T09:03:45.000000+00:00",
+      "temperature": 63.65,
+      "vibration": 2.03,
+      "age_seconds": 75.0,
+      "stale": true
+    }
+  ],
+  "alarms": [
+    {
+      "id": 1,
+      "asset": "pump-01",
+      "metric": "temperature",
+      "opened_at": "2026-11-23T09:01:40.000000+00:00",
+      "closed_at": "2026-11-23T09:03:00.000000+00:00",
+      "acknowledged_at": "2026-11-23T09:02:05.000000+00:00"
+    },
+    {
+      "id": 2,
+      "asset": "pump-01",
+      "metric": "vibration",
+      "opened_at": "2026-11-23T09:01:40.000000+00:00",
+      "closed_at": "2026-11-23T09:03:00.000000+00:00",
+      "acknowledged_at": null
+    }
+  ],
+  "reading_count": 106
+}

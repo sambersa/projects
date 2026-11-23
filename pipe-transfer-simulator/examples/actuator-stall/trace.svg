@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="610" viewBox="0 0 1100 610" role="img" aria-labelledby="title desc">
+<title id="title">Pipe transfer simulation: actuator-stall</title><desc id="desc">State occupancy over simulated time. Each rectangle represents one 100 millisecond scan.</desc>
+<rect width="1100" height="610" fill="#0c202b"/><g fill="#eaf4f5" font-family="Segoe UI,Arial,sans-serif">
+<text x="45" y="46" fill="#71cfc2" font-size="13" letter-spacing="3">PIPE TRANSFER / SIMULATION TRACE</text>
+<text x="45" y="92" font-size="32" font-weight="700">actuator-stall</text>
+<text x="45" y="124" font-size="15" fill="#aac7cc">52 scans · 5.1s simulated · result: Fault</text>
+<text x="45" y="187" font-size="14">Idle</text><line x1="190" x2="1040" y1="195" y2="195" stroke="#284451"/>
+<rect x="190.00" y="165" width="16.45" height="30" fill="#71cfc2"/>
+<text x="45" y="230" font-size="14">Clamping</text><line x1="190" x2="1040" y1="238" y2="238" stroke="#284451"/>
+<rect x="206.35" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="222.69" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="239.04" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="255.38" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="271.73" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="288.08" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="304.42" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="320.77" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="337.12" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="353.46" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="369.81" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="386.15" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="402.50" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="418.85" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="435.19" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="451.54" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="467.88" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="484.23" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="500.58" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="516.92" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="533.27" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="549.62" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="565.96" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="582.31" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="598.65" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="615.00" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="631.35" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="647.69" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="664.04" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="680.38" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="696.73" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="713.08" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="729.42" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="745.77" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="762.12" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="778.46" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="794.81" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="811.15" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="827.50" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="843.85" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="860.19" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="876.54" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="892.88" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="909.23" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="925.58" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="941.92" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="958.27" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="974.62" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="990.96" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<rect x="1007.31" y="208" width="16.45" height="30" fill="#71cfc2"/>
+<text x="45" y="273" font-size="14">Lifting</text><line x1="190" x2="1040" y1="281" y2="281" stroke="#284451"/>
+<text x="45" y="316" font-size="14">Transferring</text><line x1="190" x2="1040" y1="324" y2="324" stroke="#284451"/>
+<text x="45" y="359" font-size="14">Lowering</text><line x1="190" x2="1040" y1="367" y2="367" stroke="#284451"/>
+<text x="45" y="402" font-size="14">Releasing</text><line x1="190" x2="1040" y1="410" y2="410" stroke="#284451"/>
+<text x="45" y="445" font-size="14">Complete</text><line x1="190" x2="1040" y1="453" y2="453" stroke="#284451"/>
+<text x="45" y="488" font-size="14">Fault</text><line x1="190" x2="1040" y1="496" y2="496" stroke="#284451"/>
+<rect x="1023.65" y="466" width="16.45" height="30" fill="#f49b76"/>
+<text x="45" y="555" font-size="16">Timeout in Clamping</text>
+<text x="45" y="585" fill="#aac7cc" font-size="12">Synthetic equipment model · deterministic 100ms scans · no hardware connection</text></g></svg>

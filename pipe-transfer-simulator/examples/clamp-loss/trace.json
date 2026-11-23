@@ -1,0 +1,176 @@
+[
+  {
+    "Scan": 0,
+    "ElapsedMs": 0,
+    "Inputs": {
+      "Start": false,
+      "Reset": false,
+      "EmergencyStop": false,
+      "GuardClosed": true,
+      "PressureOk": true,
+      "CommunicationOk": true,
+      "PipePresent": true,
+      "ClampClosed": false,
+      "AtTop": false,
+      "AtDestination": false,
+      "AtBottom": true,
+      "ClampOpen": true
+    },
+    "Result": {
+      "Stage": "Idle",
+      "Fault": null,
+      "Outputs": {
+        "Clamp": false,
+        "Lift": false,
+        "Transfer": false,
+        "Lower": false,
+        "Release": false
+      }
+    }
+  },
+  {
+    "Scan": 1,
+    "ElapsedMs": 100,
+    "Inputs": {
+      "Start": true,
+      "Reset": false,
+      "EmergencyStop": false,
+      "GuardClosed": true,
+      "PressureOk": true,
+      "CommunicationOk": true,
+      "PipePresent": true,
+      "ClampClosed": false,
+      "AtTop": false,
+      "AtDestination": false,
+      "AtBottom": true,
+      "ClampOpen": true
+    },
+    "Result": {
+      "Stage": "Clamping",
+      "Fault": null,
+      "Outputs": {
+        "Clamp": true,
+        "Lift": false,
+        "Transfer": false,
+        "Lower": false,
+        "Release": false
+      }
+    }
+  },
+  {
+    "Scan": 2,
+    "ElapsedMs": 200,
+    "Inputs": {
+      "Start": false,
+      "Reset": false,
+      "EmergencyStop": false,
+      "GuardClosed": true,
+      "PressureOk": true,
+      "CommunicationOk": true,
+      "PipePresent": true,
+      "ClampClosed": false,
+      "AtTop": false,
+      "AtDestination": false,
+      "AtBottom": true,
+      "ClampOpen": true
+    },
+    "Result": {
+      "Stage": "Clamping",
+      "Fault": null,
+      "Outputs": {
+        "Clamp": true,
+        "Lift": false,
+        "Transfer": false,
+        "Lower": false,
+        "Release": false
+      }
+    }
+  },
+  {
+    "Scan": 3,
+    "ElapsedMs": 300,
+    "Inputs": {
+      "Start": false,
+      "Reset": false,
+      "EmergencyStop": false,
+      "GuardClosed": true,
+      "PressureOk": true,
+      "CommunicationOk": true,
+      "PipePresent": true,
+      "ClampClosed": false,
+      "AtTop": false,
+      "AtDestination": false,
+      "AtBottom": true,
+      "ClampOpen": true
+    },
+    "Result": {
+      "Stage": "Clamping",
+      "Fault": null,
+      "Outputs": {
+        "Clamp": true,
+        "Lift": false,
+        "Transfer": false,
+        "Lower": false,
+        "Release": false
+      }
+    }
+  },
+  {
+    "Scan": 4,
+    "ElapsedMs": 400,
+    "Inputs": {
+      "Start": false,
+      "Reset": false,
+      "EmergencyStop": false,
+      "GuardClosed": true,
+      "PressureOk": true,
+      "CommunicationOk": true,
+      "PipePresent": true,
+      "ClampClosed": true,
+      "AtTop": false,
+      "AtDestination": false,
+      "AtBottom": true,
+      "ClampOpen": false
+    },
+    "Result": {
+      "Stage": "Lifting",
+      "Fault": null,
+      "Outputs": {
+        "Clamp": true,
+        "Lift": true,
+        "Transfer": false,
+        "Lower": false,
+        "Release": false
+      }
+    }
+  },
+  {
+    "Scan": 5,
+    "ElapsedMs": 500,
+    "Inputs": {
+      "Start": false,
+      "Reset": false,
+      "EmergencyStop": false,
+      "GuardClosed": true,
+      "PressureOk": true,
+      "CommunicationOk": true,
+      "PipePresent": true,
+      "ClampClosed": false,
+      "AtTop": false,
+      "AtDestination": false,
+      "AtBottom": false,
+      "ClampOpen": false
+    },
+    "Result": {
+      "Stage": "Fault",
+      "Fault": "Clamp feedback lost",
+      "Outputs": {
+        "Clamp": false,
+        "Lift": false,
+        "Transfer": false,
+        "Lower": false,
+        "Release": false
+      }
+    }
+  }
+]

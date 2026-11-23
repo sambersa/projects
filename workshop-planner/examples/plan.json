@@ -1,0 +1,166 @@
+{
+  "scheduled": [
+    {
+      "id": "inspect",
+      "title": "Inspect pump housing",
+      "duration": 45,
+      "priority": 1,
+      "due": 60,
+      "skills": [
+        "inspection"
+      ],
+      "dependsOn": [],
+      "technician": "alex",
+      "start": 0,
+      "end": 45,
+      "lateMinutes": 0
+    },
+    {
+      "id": "motor",
+      "title": "Motor insulation check",
+      "duration": 90,
+      "priority": 1,
+      "due": 120,
+      "skills": [
+        "electrical"
+      ],
+      "dependsOn": [],
+      "resource": "test-bench",
+      "technician": "jamie",
+      "start": 0,
+      "end": 90,
+      "lateMinutes": 0
+    },
+    {
+      "id": "pump-seal",
+      "title": "Replace pump seal",
+      "duration": 120,
+      "priority": 1,
+      "due": 180,
+      "skills": [
+        "mechanical"
+      ],
+      "dependsOn": [
+        "inspect"
+      ],
+      "resource": "lifting-bay",
+      "technician": "alex",
+      "start": 45,
+      "end": 165,
+      "lateMinutes": 0
+    },
+    {
+      "id": "calibrate",
+      "title": "Calibrate spare sensor",
+      "duration": 60,
+      "priority": 3,
+      "due": 420,
+      "skills": [
+        "electrical"
+      ],
+      "dependsOn": [],
+      "resource": "test-bench",
+      "technician": "jamie",
+      "start": 90,
+      "end": 150,
+      "lateMinutes": 0
+    },
+    {
+      "id": "wiring",
+      "title": "Replace damaged wiring",
+      "duration": 120,
+      "priority": 2,
+      "due": 300,
+      "skills": [
+        "electrical"
+      ],
+      "dependsOn": [
+        "motor"
+      ],
+      "technician": "morgan",
+      "start": 90,
+      "end": 210,
+      "lateMinutes": 0
+    },
+    {
+      "id": "bearing",
+      "title": "Replace conveyor bearing",
+      "duration": 90,
+      "priority": 2,
+      "due": 360,
+      "skills": [
+        "mechanical"
+      ],
+      "dependsOn": [],
+      "resource": "lifting-bay",
+      "technician": "alex",
+      "start": 270,
+      "end": 360,
+      "lateMinutes": 0
+    },
+    {
+      "id": "final-test",
+      "title": "Combined mechanical and electrical test",
+      "duration": 60,
+      "priority": 2,
+      "due": 300,
+      "skills": [
+        "mechanical",
+        "electrical"
+      ],
+      "dependsOn": [
+        "pump-seal",
+        "wiring"
+      ],
+      "resource": "test-bench",
+      "technician": "morgan",
+      "start": 270,
+      "end": 330,
+      "lateMinutes": 30
+    }
+  ],
+  "unscheduled": [
+    {
+      "id": "weld",
+      "title": "Repair cracked bracket",
+      "reason": "No technician has all required skills"
+    },
+    {
+      "id": "overhaul",
+      "title": "Full gearbox overhaul",
+      "reason": "No continuous slot within technician availability and resource capacity"
+    },
+    {
+      "id": "paint",
+      "title": "Finish repaired bracket",
+      "reason": "Blocked by unscheduled dependency: weld"
+    }
+  ],
+  "technicians": [
+    {
+      "id": "alex",
+      "availableMinutes": 450,
+      "bookedMinutes": 255,
+      "utilizationPercent": 57
+    },
+    {
+      "id": "jamie",
+      "availableMinutes": 450,
+      "bookedMinutes": 150,
+      "utilizationPercent": 33
+    },
+    {
+      "id": "morgan",
+      "availableMinutes": 360,
+      "bookedMinutes": 180,
+      "utilizationPercent": 50
+    }
+  ],
+  "summary": {
+    "totalJobs": 10,
+    "scheduledJobs": 7,
+    "unscheduledJobs": 3,
+    "lateJobs": 1,
+    "totalLateMinutes": 30
+  }
+}

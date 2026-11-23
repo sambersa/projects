@@ -1,0 +1,20 @@
+{
+  "dayMinutes": 480,
+  "technicians": [
+    {"id": "alex", "skills": ["mechanical", "inspection"], "availability": [{"start": 0, "end": 240}, {"start": 270, "end": 480}]},
+    {"id": "jamie", "skills": ["electrical", "inspection"], "availability": [{"start": 0, "end": 210}, {"start": 240, "end": 480}]},
+    {"id": "morgan", "skills": ["mechanical", "electrical"], "availability": [{"start": 60, "end": 240}, {"start": 270, "end": 450}]}
+  ],
+  "jobs": [
+    {"id": "inspect", "title": "Inspect pump housing", "duration": 45, "priority": 1, "due": 60, "skills": ["inspection"], "dependsOn": []},
+    {"id": "pump-seal", "title": "Replace pump seal", "duration": 120, "priority": 1, "due": 180, "skills": ["mechanical"], "dependsOn": ["inspect"], "resource": "lifting-bay"},
+    {"id": "motor", "title": "Motor insulation check", "duration": 90, "priority": 1, "due": 120, "skills": ["electrical"], "dependsOn": [], "resource": "test-bench"},
+    {"id": "wiring", "title": "Replace damaged wiring", "duration": 120, "priority": 2, "due": 300, "skills": ["electrical"], "dependsOn": ["motor"]},
+    {"id": "bearing", "title": "Replace conveyor bearing", "duration": 90, "priority": 2, "due": 360, "skills": ["mechanical"], "dependsOn": [], "resource": "lifting-bay"},
+    {"id": "final-test", "title": "Combined mechanical and electrical test", "duration": 60, "priority": 2, "due": 300, "skills": ["mechanical", "electrical"], "dependsOn": ["pump-seal", "wiring"], "resource": "test-bench"},
+    {"id": "calibrate", "title": "Calibrate spare sensor", "duration": 60, "priority": 3, "due": 420, "skills": ["electrical"], "dependsOn": [], "resource": "test-bench"},
+    {"id": "weld", "title": "Repair cracked bracket", "duration": 60, "priority": 2, "due": 240, "skills": ["welding"], "dependsOn": []},
+    {"id": "paint", "title": "Finish repaired bracket", "duration": 30, "priority": 3, "due": 480, "skills": ["mechanical"], "dependsOn": ["weld"]},
+    {"id": "overhaul", "title": "Full gearbox overhaul", "duration": 460, "priority": 3, "due": 480, "skills": ["mechanical"], "dependsOn": []}
+  ]
+}
